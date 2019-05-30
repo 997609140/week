@@ -1,0 +1,72 @@
+$c-theme: #F76645; //主题色
+$c-border: #EEEEEE; //边框色
+$c-base: #121B32; //基色黑色
+$c-dark: #5A6880; //暗色字体
+$c-gray: #9DA3AE; //灰色字体
+$c-black: #000000; //黑色
+$c-white: #FFFFFF;
+$c-hint: #C3C9D3;
+$c-disable: #E1E1E1;
+$c-red: #FF0000;
+$c-light: #BDBDBD;
+$c-yellow: #FFB844;
+$c-bg: #F7F9FC;
+$c-title-bg: #FAFCFF;
+$c-blue: #397AE6;
+$btn-disabled: #FFD3C9;
+
+//颜色样式
+
+.c-theme {
+  color: $c-theme;
+}
+
+.c-gray {
+  color: $c-gray;
+}
+
+.c-base {
+  color: $c-base;
+}
+
+.c-dark {
+  color: $c-dark;
+}
+
+.c-black {
+  color: $c-black;
+}
+
+.c-light {
+  color: $c-light;
+}
+
+// 白色
+.c-white {
+  color: $c-white;
+}
+
+.c-red {
+  color: $c-red;
+}
+
+.c-blue {
+  color: $c-blue;
+}
+
+.bg-white {
+  background-color: $c-white;
+}
+
+.bg {
+  background-color: $c-bg;
+}
+
+.bg-theme {
+  background-color: $c-theme;
+}
+
+.width-full {
+  width: 750px;
+}
+

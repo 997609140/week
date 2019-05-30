@@ -1,0 +1,63 @@
+//flex容器样式
+.flex{
+  display: flex;
+}
+.flex-c {
+  display: flex;
+  flex-direction: column;
+}
+
+.flex-r {
+  display: flex;
+  flex-direction: row;
+}
+.justify-between{
+  justify-content: space-between;
+}
+.align-center {
+  align-items: center;
+}
+
+.justify-center {
+  justify-content: center;
+}
+
+.flex-center {
+  align-items: center;
+  justify-content: center;
+}
+
+.grow-1 {
+  display: flex;
+  flex: 1;
+}
+
+.pos-r {
+  position: relative;
+}
+
+.pos-a {
+  position: absolute;
+}
+
+.tac {
+  text-align: center;
+}
+
+.line-row {
+  background-color: #E8EBF1;
+  height: 1px;
+}
+
+.bold{
+  font-weight: bold;
+}
+
+
+.btn-theme {
+  background-color: $c-theme;
+}
+
+.btn-disabled {
+  background-color: $btn-disabled;
+}
